@@ -15,7 +15,7 @@ void helpMenu() {
 
 int main(int argc, char* argv[]) {
 
-    char branch[100] = "main";
+    char branch[100] = "master";
     char message[256] = "";
 
     if(argc == 2 && strcmp(argv[1], "--help") == 0) {
